@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from module import __version__
 
 
