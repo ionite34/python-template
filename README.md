@@ -13,11 +13,11 @@
 
 ### [PyPI](https://pypi.org/)
 - **PYPI_TOKEN**
-- > Builds and uploads to PyPI on new `published releases`
+> Builds and uploads to PyPI on new `published releases`
 
 ### [DeepSource](https://deepsource.io/)
 - **DEEPSOURCE_CDN**
-- > Code issue tracking, PR auto-transforms, coverage, and more
+> Code issue tracking, PR auto-transforms, coverage, and more
 
 ## Requirements
 ```
