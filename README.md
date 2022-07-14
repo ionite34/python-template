@@ -6,6 +6,7 @@
 
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/_)](https://pypi.org/project/_/)
 [![PyPI version](https://badge.fury.io/py/_.svg)](https://pypi.org/project/_/)
+[![Checked with mypy](http://www.mypy-lang.org/static/mypy_badge.svg)](http://mypy-lang.org/)
 
 **Python package template using Poetry and GitHub CI**
 
