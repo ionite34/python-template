@@ -14,6 +14,7 @@ mypy = "^0.961"
 pylint = "^2.14.4"
 black = "^22.6.0"
 tox = "^3.25.1"
+pre-commit = "^2.20.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
