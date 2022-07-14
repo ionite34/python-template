@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from template import __version__
+from python_template import __version__
 
 
 def test_version():
