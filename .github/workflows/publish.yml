@@ -38,12 +38,12 @@ jobs:
     - name: Setup Python
       uses: actions/setup-python@v3
       with:
-        python-version: ${{ env.PYTHON }}
+        python-version: ${{ env.python }}
 
     - name: Run Poetry image
       uses: abatilo/actions-poetry@v2.0.0
       with:
-        poetry-version: ${{ env.POETRY }}
+        poetry-version: ${{ env.poetry }}
 
     - name: Install requirements
       run: |
