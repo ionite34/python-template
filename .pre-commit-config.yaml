@@ -10,12 +10,12 @@ repos:
       - id: check-docstring-first
       - id: debug-statements
 
-  # Import reorder, adds future annotations
-  - repo: https://github.com/asottile/reorder_python_imports
-    rev: v3.8.1
+  # Sort imports with isort
+  - repo: https://github.com/pycqa/isort
+    rev: 5.10.1
     hooks:
-      - id: reorder-python-imports
-        args: [--py37-plus, --add-import, "from __future__ import annotations"]
+      - id: isort
+        name: isort (python)
 
   # Upgrade syntax to newer versions
   - repo: https://github.com/asottile/pyupgrade
